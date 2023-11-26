@@ -8,4 +8,4 @@
 ```bash 
 npm install 
 ```
-3. Avant toutes modifications, créer votre
+3. Avant toutes modifications, créer votre branch
