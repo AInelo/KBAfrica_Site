@@ -1,6 +1,6 @@
 # ICI c'est le site KB Africa
 
-## pour l'installer :
+## Pour l'installer :
 
 1. Avoir JavaScript Runtime Environnement Node Js
 
