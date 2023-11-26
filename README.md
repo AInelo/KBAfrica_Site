@@ -10,4 +10,4 @@ npm install
 ```
 3. Avant toutes modifications, créer votre branch
 ```bash
-git branch le_nom_de_la
+git branch le_nom_de_la_branch
