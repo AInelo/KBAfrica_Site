@@ -9,3 +9,4 @@
 npm install 
 ```
 3. Avant toutes modifications, créer votre branch
+```bash
