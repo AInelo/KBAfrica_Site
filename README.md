@@ -7,3 +7,4 @@
 2. Exécuter la commande suivante
 ```bash 
 npm install 
+```
