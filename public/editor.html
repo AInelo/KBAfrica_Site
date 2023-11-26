@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Editeur LaSMO</title>
+    <link rel="shortcut icon" sizes="1000" href="https://firebasestorage.googleapis.com/v0/b/lasmo-dcd6a.appspot.com/o/KBlogo1.jpg?alt=media&token=fc858f3c-16fe-410b-a007-db21a2765a6c" type="image/x-icon">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container" id="container">
+        <header>
+          <section class="window--buttons">
+            <div class="window__close"></div>
+      
+            <div class="window__minimize"></div>
+      
+            <div class="window__maximize"></div>
+          </section>
+        </header>
+      
+        <aside class="navbar" >
+          <div>
+                  
+            <button id="sidebar-btn" style="color: aqua;" class=""> <u> <em> Voir </em> </u></button>
+            <button id="sidebar-btn" id="messagerecus" class="messagerecus">messages </button>
+            <button id="sidebar-btn" id="MailsContainer" class="MailsContainer" >Newsletter</button>
+
+            <button id="sidebar-btn" style="color: red !important;" class="retour">Retour/Acceuil</button>
+           
+          </div>
+      
+          <div class="profile">
+            <img src="https://firebasestorage.googleapis.com/v0/b/lasmo-dcd6a.appspot.com/o/KBlogo1.jpg?alt=media&token=fc858f3c-16fe-410b-a007-db21a2765a6c" alt="Profile Pic" class="profile--pic" />
+            <h1 href="/"></h1>
+          </div>
+        </aside>
+      
+        <div class="content">
+
+           
+
+
+          <!-- POUR LES MESSAGES RECUS -->
+          <div class="containerMessages" style="display: none !important;">
+            <h1 style="color: black !important;">***Les messages reçus</h1>
+
+          </div>
+            
+
+          
+
+          <!-- POUR LES MAILS DANS LA NEWSLETTER  -->
+          <div class="containerNewsletter" style="display: none !important;" >
+            <h1 style="color: black !important;">***Base de donnée des mails</h1>
+            <table id="tableauNewsletterSection" class="tableauNewsletterSection" style="border: 1px;" >
+              <tr> 
+                  <th style="font-size: 15px;">E-mail</th>
+              </tr>
+            </table>
+          </div>
+
+           
+
+            </div>  
+        
+        </div>
+          
+    </div>
+
+
+
+
+
+    
+      <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <!-- <script src="./js/main.js"></script> -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="js/firebase.js"></script>
+      <script src="js/editor.js"></script>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4420N5Z9KX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4420N5Z9KX');
+</script>
+
+</body>
+</html>
