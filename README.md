@@ -4,4 +4,4 @@
 
 1. Avoir JavaScript Runtime Environnement Node Js
 
-2. Exécuter la commande 
+2. Exécuter la commande suivante
